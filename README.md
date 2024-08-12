@@ -1,7 +1,6 @@
 # Gradient-based Activation Function Search (GRAFS)
 
-This is a repository for reproducing the experiments mentioned in the paper _"Searching for Customized Activation Functions
-Efficiently with Gradient Descent"_.
+This is a repository for reproducing the experiments mentioned in the paper _"Efficient Search for Customized Activation Functions with Gradient Descent"_.
 This Repository features two main sections:
 
 1. ResNet experiments:`rn`, parts of code originates form [pytorch_resnet_cifar10](https://github.com/akamaster/pytorch_resnet_cifar10)
@@ -10,14 +9,14 @@ This Repository features two main sections:
 
 
 ## Get Data
-1. For Computer Vision (ResNet or ViT) experiments data run
+1. For Computer Vision (ResNet or ViT) experiments run
 
 ```
 cd rn
 python download_data.py
 ```
 
-2. For GPT experiments data run
+2. For GPT experiments run
 
 ```
 cd gpt
